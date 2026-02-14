@@ -8,9 +8,9 @@
 
 ## 📺 Sobre o Projeto
 
-Este projeto faz parte de uma série de vídeos do canal **[Laboratório do Kilua]**, onde exploramos como criar sistemas de jogos complexos utilizando engenharia de software profissional e Inteligência Artificial.
+Este projeto faz parte de uma série de vídeos do canal **[Killdragon](https://www.youtube.com/@ArturKilldragon)**, onde exploramos como criar sistemas de jogos complexos utilizando engenharia de software profissional e Inteligência Artificial.
 
-O objetivo não é apenas copiar o visual, mas replicar a **lógica matemática exata** (Soft Pity, Hard Pity, 50/50) garantindo que tudo funcione através de Testes Unitários antes mesmo de abrir a Unity.
+O objetivo não é apenas copiar o visual, mas replicar a **lógica matemática** (Soft Pity, Hard Pity, 50/50) garantindo que tudo funcione através de Testes Unitários antes mesmo de abrir a Unity.
 
 ## ✨ Funcionalidades (Core)
 
