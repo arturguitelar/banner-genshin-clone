@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7844223a561906649947230ece55af41, type: 3}
+  m_Name: _Mochileiro
+  m_EditorClassIdentifier: Game.Core::Game.Data.GachaPoolSO
+  characters5Star:
+  - {fileID: 11400000, guid: c25eecd0837c9c74cbb652768d89b918, type: 2}
+  - {fileID: 11400000, guid: b6ee990f1e5363449a1d94507625af18, type: 2}
+  - {fileID: 11400000, guid: 6e98a1094a80ae34f812b23203009446, type: 2}
+  - {fileID: 11400000, guid: aa590ccb73c924145846688f7207effa, type: 2}
+  - {fileID: 11400000, guid: 7c477335ea8d8c74e82f488f92da913c, type: 2}
+  weapons5Star:
+  - {fileID: 11400000, guid: c316f848d3e1b8b43a15678afcf2934e, type: 2}
+  - {fileID: 11400000, guid: 262cc7bd05f877d45aa20db39f7a07bb, type: 2}
+  - {fileID: 11400000, guid: 441b6b944711b48449b5debe86915846, type: 2}
+  - {fileID: 11400000, guid: 0c4b70de136b9524cb37449d26295dcd, type: 2}
+  - {fileID: 11400000, guid: e23a9b6f4409ddf4a99dc4c0bc4a42f3, type: 2}
+  - {fileID: 11400000, guid: 9e1f9ffb5381cf84ea03cee7141ea138, type: 2}
+  - {fileID: 11400000, guid: 5bb14de2a465ebb4db28037c32042f60, type: 2}
+  - {fileID: 11400000, guid: 6cd3c8ca1d6afb5498ff7f92d4262d4e, type: 2}
+  - {fileID: 11400000, guid: 9d7cf7c89bea7774693b990fad336761, type: 2}
+  - {fileID: 11400000, guid: 1651298ec2c79bc43b5b8e2629b733fb, type: 2}
+  characters4Star:
+  - {fileID: 11400000, guid: c9d20071d9966f34690f27a3966b063b, type: 2}
+  - {fileID: 11400000, guid: 40f538aec5c2e504d9a3eb7187dd112d, type: 2}
+  - {fileID: 11400000, guid: c69774ab967767445a88db50c980e089, type: 2}
+  - {fileID: 11400000, guid: 9bd6cc30de56c9845ae09c92a82d7612, type: 2}
+  - {fileID: 11400000, guid: 670e2a7dc966f5049b0a72ec00627282, type: 2}
+  - {fileID: 11400000, guid: a8903dd5e98e55f4f9e39429c85c7211, type: 2}
+  - {fileID: 11400000, guid: 308cfe43b5a337d4d856f043c0620c33, type: 2}
+  - {fileID: 11400000, guid: 31a2fad67f3883a459cc07b0bee6739e, type: 2}
+  - {fileID: 11400000, guid: 04242bc508bfa8546afbd1a6d676641f, type: 2}
+  - {fileID: 11400000, guid: d3927d0e6f1f2cf4cab8bcc689f26679, type: 2}
+  - {fileID: 11400000, guid: 05a1cf4c3c89af8489462d054ed9e8c4, type: 2}
+  - {fileID: 11400000, guid: 817cb5431bf75be42b61e2147592419d, type: 2}
+  - {fileID: 11400000, guid: 2dc73c66f9365954887336683b81c19e, type: 2}
+  - {fileID: 11400000, guid: 9ea9e47762f6694448ae8ccdec5abfcd, type: 2}
+  weapons4Star:
+  - {fileID: 11400000, guid: 1744f5827f5f33e4d946d2f0cef877df, type: 2}
+  - {fileID: 11400000, guid: 023fd538fa0c72f48921fec38b9bf310, type: 2}
+  - {fileID: 11400000, guid: 9c3ac6c074761364e8a83449b892d23f, type: 2}
+  - {fileID: 11400000, guid: eabe75465d1cc3842acb248c4850ccf4, type: 2}
+  - {fileID: 11400000, guid: fb5ce0cebe5cbd848a88ced7803c8fd7, type: 2}
+  - {fileID: 11400000, guid: 5fcea257237d6434ea7c533fa3886aba, type: 2}
+  - {fileID: 11400000, guid: d974fe81efd33ba4b8faa7da86cb9d9c, type: 2}
+  - {fileID: 11400000, guid: c58977a48ae185f4fa21ddaa1fa51711, type: 2}
+  weapons3Star:
+  - {fileID: 11400000, guid: 9c5339977649147408ea1a9cd0be615f, type: 2}
+  - {fileID: 11400000, guid: 38c951ec529a80240a8bb8e4c73422b7, type: 2}
+  - {fileID: 11400000, guid: 7c584faff9581a845a453f6c21e2a21d, type: 2}
+  - {fileID: 11400000, guid: d96b3f2089deccf428d249163b08ccf8, type: 2}
+  - {fileID: 11400000, guid: f597f73fe69294347826f6fd489ec208, type: 2}
+  - {fileID: 11400000, guid: e3907396bed6a534ca5e05035abfbd44, type: 2}
+  - {fileID: 11400000, guid: 63e5a32144b7eb94bb8b60da3f9f38a4, type: 2}
+  - {fileID: 11400000, guid: f98c5def7f03e6640940b89795025bb9, type: 2}
+  - {fileID: 11400000, guid: 37763d67e9f9bd94ab06c4914cbd532d, type: 2}
+  - {fileID: 11400000, guid: 645e5c3a5d7f32049936eb337b902a29, type: 2}
