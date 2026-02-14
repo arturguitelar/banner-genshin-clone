@@ -35,3 +35,10 @@ O objetivo não é apenas copiar o visual, mas replicar a **lógica matemática 
    ```bash
    git clone https://github.com/SEU_USUARIO/GenshinGacha_Clone.git
    ```
+3. Adicione o projeto no Unity Hub e abra.
+4. Para ver a mágica sem rodar o jogo:
+
+- Vá em Window > General > Test Runner
+- Rode os testes e veja a matemática funcionando!
+
+_Desenvolvido com 💜 por **Artur (Killdragon)** e a **Gemini Team**._
