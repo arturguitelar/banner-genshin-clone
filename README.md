@@ -1,6 +1,6 @@
 # 🌠 Genshin Impact Gacha Clone (Unity 6)
 
-> Um clone robusto e testável do sistema de Gacha do Genshin Impact, desenvolvido com foco em Arquitetura de Software, TDD e Unity 6 (URP).
+> Um clone robusto e testável do sistema de Gacha do [Genshin Impact](https://genshin.hoyoverse.com/), desenvolvido com foco em Arquitetura de Software, TDD e Unity 6 (URP).
 
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Unity](https://img.shields.io/badge/Unity-6000.0.0+-black?logo=unity)
