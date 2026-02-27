@@ -1,0 +1,10 @@
+# resumo em até 50 caracteres
+#
+# corpo (opcional, com informações adicionais)
+# - explique o “porquê”, não o “como”
+# - use frases no imperativo, como “Adiciona”, “Corrige”, “Remove”
+#
+# Exemplo:
+# Montagem base de prefab do card
+# - Introduz o prefab GachaCard e componentes necessários
+# - Ajusta layout da SampleScene
