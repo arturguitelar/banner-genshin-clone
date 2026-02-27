@@ -1,5 +1,5 @@
 using UnityEngine;
-using Game.Core;
+using Game.Core; // <--- Importante para ele achar o Enum GachaType
 
 namespace Game.Data
 {
@@ -7,17 +7,18 @@ namespace Game.Data
     public class GachaItemSO : ScriptableObject
     {
         [Header("Identity")]
-        public string idName;       // ID único (ex: "char_fischl")
-        public string displayName;  // Nome na tela (ex: "Fischl")
+        public string idName;
+        public string displayName;
+
+        [Header("Type & Rarity")]
+        public GachaType itemType; 
+        public GachaRarity rarity;
 
         [Header("Visuals - List View")]
-        public Sprite icon;         // A imagem pequena/vertical
+        public Sprite icon;         // Ícone pequeno (Armas usam este na carta)
 
         [Header("Visuals - Splash View")]
-        public Sprite splashArt;    // A arte full body (Ref 2)
-        public Sprite elementIcon;  // O ícone do elemento (Pyro, Electro, etc)
-
-        [Header("Data")]
-        public GachaRarity rarity;  // Define a cor do brilho e a lógica de drop
+        public Sprite splashArt;    // Arte de corpo inteiro (Só Characters usam)
+        public Sprite elementIcon;  // Fogo, Vento, etc.
     }
 }

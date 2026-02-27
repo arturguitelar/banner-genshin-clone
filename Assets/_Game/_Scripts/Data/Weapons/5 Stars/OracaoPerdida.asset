@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Game.Core::Game.Data.GachaItemSO
   idName: Item_OracaoPerdida
   displayName: "Ora\xE7\xE3o Perdida aos Ventos Sagrados"
+  itemType: 1
+  rarity: 2
   icon: {fileID: 0}
   splashArt: {fileID: 0}
   elementIcon: {fileID: 0}
-  rarity: 2

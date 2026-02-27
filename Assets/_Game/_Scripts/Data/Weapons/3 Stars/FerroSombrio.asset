@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Game.Core::Game.Data.GachaItemSO
   idName: Item_FerroSombrio
   displayName: Espada do Ferro Sombrio
+  itemType: 1
+  rarity: 0
   icon: {fileID: 0}
   splashArt: {fileID: 0}
   elementIcon: {fileID: 0}
-  rarity: 0

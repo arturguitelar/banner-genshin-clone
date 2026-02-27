@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Game.Core::Game.Data.GachaItemSO
   idName: Item_TTDS
   displayName: "Hist\xF3rias Extraordin\xE1rias de Ca\xE7adores de Drag\xF5es"
+  itemType: 1
+  rarity: 0
   icon: {fileID: 0}
   splashArt: {fileID: 0}
   elementIcon: {fileID: 0}
-  rarity: 0
