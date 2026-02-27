@@ -41,4 +41,10 @@ O objetivo não é apenas copiar o visual, mas replicar a **lógica matemática*
 - Vá em Window > General > Test Runner
 - Rode os testes e veja a matemática funcionando!
 
+Configurado com _.gitmessage_ para garantir que as mensagens de git tenham o mesmo formato e sejam em português.
+
+```bash
+git config --local commit.template .gitmessage
+```
+
 _Desenvolvido com 💜 por **Artur (Killdragon)** e a **Gemini Team**._
