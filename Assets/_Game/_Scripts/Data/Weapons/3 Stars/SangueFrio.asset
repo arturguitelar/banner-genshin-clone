@@ -16,6 +16,6 @@ MonoBehaviour:
   displayName: "L\xE2mina de Sangue Frio"
   itemType: 1
   rarity: 0
-  icon: {fileID: 0}
-  splashArt: {fileID: 0}
+  icon: {fileID: 21300000, guid: 7b20d07a4d4d67040b6fc537a249d33a, type: 3}
+  splashArt: {fileID: 21300000, guid: 7b20d07a4d4d67040b6fc537a249d33a, type: 3}
   elementIcon: {fileID: 0}

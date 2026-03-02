@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Game.Core::Game.Data.GachaItemSO
   idName: Item_Qiqi
   displayName: Qiqi
-  icon: {fileID: 0}
-  splashArt: {fileID: 0}
-  elementIcon: {fileID: 0}
+  itemType: 0
   rarity: 2
+  icon: {fileID: 21300000, guid: cf0cc8ae5d5994a4ea4edcf3d7e8e046, type: 3}
+  splashArt: {fileID: 21300000, guid: b43c5ba3b04c2f742b7c9f8b8f13710f, type: 3}
+  elementIcon: {fileID: 21300000, guid: 54249797778b5254b918b0751f8d7181, type: 3}

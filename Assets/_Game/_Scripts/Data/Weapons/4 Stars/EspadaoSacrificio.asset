@@ -16,6 +16,6 @@ MonoBehaviour:
   displayName: "Espad\xE3o do Sacrif\xEDcio"
   itemType: 1
   rarity: 1
-  icon: {fileID: 0}
-  splashArt: {fileID: 0}
+  icon: {fileID: 21300000, guid: 70c555c6cf0d5f443b6369580d53c1c2, type: 3}
+  splashArt: {fileID: 21300000, guid: 70c555c6cf0d5f443b6369580d53c1c2, type: 3}
   elementIcon: {fileID: 0}

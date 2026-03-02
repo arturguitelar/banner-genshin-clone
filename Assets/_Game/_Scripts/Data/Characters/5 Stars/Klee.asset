@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Game.Core::Game.Data.GachaItemSO
   idName: Item_Klee
   displayName: Klee
-  icon: {fileID: 0}
-  splashArt: {fileID: 0}
-  elementIcon: {fileID: 0}
+  itemType: 0
   rarity: 2
+  icon: {fileID: 21300000, guid: c252814bcfd4e4b47a01ab1c4b554c1a, type: 3}
+  splashArt: {fileID: 21300000, guid: 705d3267920d4ab4ab9d27b11bc73e7e, type: 3}
+  elementIcon: {fileID: 21300000, guid: 1a10a0d1a2ebc2b418c0dca4983270f1, type: 3}

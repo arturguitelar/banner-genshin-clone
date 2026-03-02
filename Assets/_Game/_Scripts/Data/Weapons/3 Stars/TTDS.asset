@@ -16,6 +16,6 @@ MonoBehaviour:
   displayName: "Hist\xF3rias Extraordin\xE1rias de Ca\xE7adores de Drag\xF5es"
   itemType: 1
   rarity: 0
-  icon: {fileID: 0}
-  splashArt: {fileID: 0}
+  icon: {fileID: 21300000, guid: db1e8fdf5e6e1fe4fb1270e1499060d9, type: 3}
+  splashArt: {fileID: 21300000, guid: db1e8fdf5e6e1fe4fb1270e1499060d9, type: 3}
   elementIcon: {fileID: 0}

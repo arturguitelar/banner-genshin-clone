@@ -16,6 +16,6 @@ MonoBehaviour:
   displayName: "Lan\xE7a de Jade Primitiva"
   itemType: 1
   rarity: 2
-  icon: {fileID: 0}
-  splashArt: {fileID: 0}
+  icon: {fileID: 21300000, guid: 69945068de7b4d247b0bb65990ed33a4, type: 3}
+  splashArt: {fileID: 21300000, guid: 69945068de7b4d247b0bb65990ed33a4, type: 3}
   elementIcon: {fileID: 0}

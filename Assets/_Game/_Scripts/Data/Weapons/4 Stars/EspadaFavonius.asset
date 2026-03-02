@@ -16,6 +16,6 @@ MonoBehaviour:
   displayName: Espada de Favonius
   itemType: 1
   rarity: 1
-  icon: {fileID: 0}
-  splashArt: {fileID: 0}
+  icon: {fileID: 21300000, guid: 20454761e35ada144893889fab09ad44, type: 3}
+  splashArt: {fileID: 21300000, guid: 20454761e35ada144893889fab09ad44, type: 3}
   elementIcon: {fileID: 0}

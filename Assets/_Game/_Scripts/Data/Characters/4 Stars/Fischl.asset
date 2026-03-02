@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Game.Core::Game.Data.GachaItemSO
   idName: Item_Fischl
   displayName: Fischl
-  icon: {fileID: 0}
-  splashArt: {fileID: 0}
-  elementIcon: {fileID: 0}
+  itemType: 0
   rarity: 1
+  icon: {fileID: 21300000, guid: ae0c0c7ff0ad750419da0e49efa791d2, type: 3}
+  splashArt: {fileID: 21300000, guid: 8346d8a5339451246be41033e49989e0, type: 3}
+  elementIcon: {fileID: 21300000, guid: 711c2de90bb818d42bdedeaa8a49b534, type: 3}

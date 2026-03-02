@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Game.Core::Game.Data.GachaItemSO
   idName: Item_Chongyun
   displayName: Chongyun
-  icon: {fileID: 0}
-  splashArt: {fileID: 0}
-  elementIcon: {fileID: 0}
+  itemType: 0
   rarity: 1
+  icon: {fileID: 21300000, guid: 1b7298b01f75dd54daa54e41038ec092, type: 3}
+  splashArt: {fileID: 21300000, guid: 29184276609d1db4f80691271b4c067b, type: 3}
+  elementIcon: {fileID: 21300000, guid: 54249797778b5254b918b0751f8d7181, type: 3}

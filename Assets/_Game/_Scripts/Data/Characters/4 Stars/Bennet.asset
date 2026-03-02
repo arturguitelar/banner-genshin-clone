@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Game.Core::Game.Data.GachaItemSO
   idName: Item_Bennet
   displayName: Bennet
-  icon: {fileID: 0}
-  splashArt: {fileID: 0}
-  elementIcon: {fileID: 0}
+  itemType: 0
   rarity: 1
+  icon: {fileID: 21300000, guid: 0f4a948a833d0434d8c8a94fd4cee8d1, type: 3}
+  splashArt: {fileID: 21300000, guid: f993bffc27ac5934ab21e4feba64a521, type: 3}
+  elementIcon: {fileID: 21300000, guid: 1a10a0d1a2ebc2b418c0dca4983270f1, type: 3}

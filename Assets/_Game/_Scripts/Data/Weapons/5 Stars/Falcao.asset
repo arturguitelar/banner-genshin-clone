@@ -16,6 +16,6 @@ MonoBehaviour:
   displayName: "Falc\xE3o"
   itemType: 1
   rarity: 2
-  icon: {fileID: 0}
-  splashArt: {fileID: 0}
+  icon: {fileID: 21300000, guid: 7c70bdd2e03b2e64aa322bc739c7f640, type: 3}
+  splashArt: {fileID: 21300000, guid: 7c70bdd2e03b2e64aa322bc739c7f640, type: 3}
   elementIcon: {fileID: 0}

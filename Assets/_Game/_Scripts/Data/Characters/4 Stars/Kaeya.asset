@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Game.Core::Game.Data.GachaItemSO
   idName: Item_Kaeya
   displayName: Kaeya
-  icon: {fileID: 0}
-  splashArt: {fileID: 0}
-  elementIcon: {fileID: 0}
+  itemType: 0
   rarity: 1
+  icon: {fileID: 21300000, guid: 12380b7fb9a7e4b42b52e3e18d23fbf3, type: 3}
+  splashArt: {fileID: 21300000, guid: f58778be8593a9544bad6b18c9e68d34, type: 3}
+  elementIcon: {fileID: 21300000, guid: 54249797778b5254b918b0751f8d7181, type: 3}

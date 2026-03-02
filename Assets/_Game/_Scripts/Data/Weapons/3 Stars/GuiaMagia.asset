@@ -16,6 +16,6 @@ MonoBehaviour:
   displayName: Guia da Magia
   itemType: 1
   rarity: 0
-  icon: {fileID: 0}
-  splashArt: {fileID: 0}
+  icon: {fileID: 21300000, guid: 2fedef442acab4d4581db06c0324d691, type: 3}
+  splashArt: {fileID: 21300000, guid: 2fedef442acab4d4581db06c0324d691, type: 3}
   elementIcon: {fileID: 0}

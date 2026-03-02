@@ -16,6 +16,6 @@ MonoBehaviour:
   displayName: Atlas Celestial
   itemType: 1
   rarity: 2
-  icon: {fileID: 0}
-  splashArt: {fileID: 0}
+  icon: {fileID: 21300000, guid: 06105265f0eb54a4380fe55cdfccb1cc, type: 3}
+  splashArt: {fileID: 21300000, guid: 06105265f0eb54a4380fe55cdfccb1cc, type: 3}
   elementIcon: {fileID: 0}

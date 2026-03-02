@@ -16,6 +16,6 @@ MonoBehaviour:
   displayName: "Arco do Sacrif\xEDcio"
   itemType: 1
   rarity: 1
-  icon: {fileID: 0}
-  splashArt: {fileID: 0}
+  icon: {fileID: 21300000, guid: aa073027ccff7b849b600f431a765df4, type: 3}
+  splashArt: {fileID: 21300000, guid: aa073027ccff7b849b600f431a765df4, type: 3}
   elementIcon: {fileID: 0}

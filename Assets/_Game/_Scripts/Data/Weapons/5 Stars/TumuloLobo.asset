@@ -16,6 +16,6 @@ MonoBehaviour:
   displayName: "T\xFAmulo do Lobo"
   itemType: 1
   rarity: 2
-  icon: {fileID: 0}
-  splashArt: {fileID: 0}
+  icon: {fileID: 21300000, guid: 9d952428cd076884a8a238db1af133b9, type: 3}
+  splashArt: {fileID: 21300000, guid: 9d952428cd076884a8a238db1af133b9, type: 3}
   elementIcon: {fileID: 0}

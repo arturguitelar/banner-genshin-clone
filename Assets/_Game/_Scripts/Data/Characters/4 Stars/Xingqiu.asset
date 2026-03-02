@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Game.Core::Game.Data.GachaItemSO
   idName: Item_Xingqiu
   displayName: Xingqiu
-  icon: {fileID: 0}
-  splashArt: {fileID: 0}
-  elementIcon: {fileID: 0}
+  itemType: 0
   rarity: 1
+  icon: {fileID: 21300000, guid: 4fc6330d364b0f640b16daddfe770c7f, type: 3}
+  splashArt: {fileID: 21300000, guid: a63fadfbb95d0a94a8ecbe30ff8090fd, type: 3}
+  elementIcon: {fileID: 21300000, guid: a32ce3846b2fdd94eac68b54245e664f, type: 3}

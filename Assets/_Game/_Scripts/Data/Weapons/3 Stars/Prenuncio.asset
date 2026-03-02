@@ -16,6 +16,6 @@ MonoBehaviour:
   displayName: "Pren\xFAncio da Alvorada"
   itemType: 1
   rarity: 0
-  icon: {fileID: 0}
-  splashArt: {fileID: 0}
+  icon: {fileID: 21300000, guid: 07e0e9eb7f6630e4794ad90804183bd0, type: 3}
+  splashArt: {fileID: 21300000, guid: 07e0e9eb7f6630e4794ad90804183bd0, type: 3}
   elementIcon: {fileID: 0}

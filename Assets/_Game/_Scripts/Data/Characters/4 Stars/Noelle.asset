@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Game.Core::Game.Data.GachaItemSO
   idName: Item_Noelle
   displayName: Noelle
-  icon: {fileID: 0}
-  splashArt: {fileID: 0}
-  elementIcon: {fileID: 0}
+  itemType: 0
   rarity: 1
+  icon: {fileID: 21300000, guid: e4fe800e7fc89ff4280518f5022d5605, type: 3}
+  splashArt: {fileID: 21300000, guid: 541bfba4c382e17488abdebbc6adf77b, type: 3}
+  elementIcon: {fileID: 21300000, guid: 5ea9fdfe5b2e34b42b56981dea647df9, type: 3}

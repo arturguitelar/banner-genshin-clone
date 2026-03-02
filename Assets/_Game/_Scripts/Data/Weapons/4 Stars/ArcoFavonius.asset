@@ -16,6 +16,6 @@ MonoBehaviour:
   displayName: Arco de Favonius
   itemType: 1
   rarity: 1
-  icon: {fileID: 0}
-  splashArt: {fileID: 0}
+  icon: {fileID: 21300000, guid: 7d61caef9ba165a469c9e254a2b0eee1, type: 3}
+  splashArt: {fileID: 21300000, guid: 7d61caef9ba165a469c9e254a2b0eee1, type: 3}
   elementIcon: {fileID: 0}

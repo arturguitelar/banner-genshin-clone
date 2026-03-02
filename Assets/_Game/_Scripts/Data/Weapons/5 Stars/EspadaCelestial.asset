@@ -16,6 +16,6 @@ MonoBehaviour:
   displayName: Espada Celestial
   itemType: 1
   rarity: 2
-  icon: {fileID: 0}
-  splashArt: {fileID: 0}
+  icon: {fileID: 21300000, guid: 47217059d7f282f47b251a3222f430c4, type: 3}
+  splashArt: {fileID: 21300000, guid: 47217059d7f282f47b251a3222f430c4, type: 3}
   elementIcon: {fileID: 0}

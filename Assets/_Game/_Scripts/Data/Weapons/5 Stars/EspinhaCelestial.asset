@@ -16,6 +16,6 @@ MonoBehaviour:
   displayName: Espinha Celestial
   itemType: 1
   rarity: 2
-  icon: {fileID: 0}
-  splashArt: {fileID: 0}
+  icon: {fileID: 21300000, guid: b1b6ae90e812daa42bc48b2f15688eca, type: 3}
+  splashArt: {fileID: 21300000, guid: b1b6ae90e812daa42bc48b2f15688eca, type: 3}
   elementIcon: {fileID: 0}

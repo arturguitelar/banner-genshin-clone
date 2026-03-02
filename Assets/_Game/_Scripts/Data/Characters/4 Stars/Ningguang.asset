@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Game.Core::Game.Data.GachaItemSO
   idName: Item_Ningguang
   displayName: Ningguang
-  icon: {fileID: 0}
-  splashArt: {fileID: 0}
-  elementIcon: {fileID: 0}
+  itemType: 0
   rarity: 1
+  icon: {fileID: 21300000, guid: 5571fdba60320f74b91a6e474ec838dc, type: 3}
+  splashArt: {fileID: 21300000, guid: 00682a84de082a84da060a3693838ebd, type: 3}
+  elementIcon: {fileID: 21300000, guid: 5ea9fdfe5b2e34b42b56981dea647df9, type: 3}

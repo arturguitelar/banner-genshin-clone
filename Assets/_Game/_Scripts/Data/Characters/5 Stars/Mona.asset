@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Game.Core::Game.Data.GachaItemSO
   idName: Item_Mona
   displayName: Mona
-  icon: {fileID: 0}
-  splashArt: {fileID: 0}
-  elementIcon: {fileID: 0}
+  itemType: 0
   rarity: 2
+  icon: {fileID: 21300000, guid: 3c377a7d3f0c9884695442135a9b541f, type: 3}
+  splashArt: {fileID: 21300000, guid: 95c44db2916ecbb4b83bb7790f4df895, type: 3}
+  elementIcon: {fileID: 21300000, guid: a32ce3846b2fdd94eac68b54245e664f, type: 3}

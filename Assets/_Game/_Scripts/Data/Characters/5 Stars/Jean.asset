@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Game.Core::Game.Data.GachaItemSO
   idName: Item_Jean
   displayName: Jean
-  icon: {fileID: 0}
-  splashArt: {fileID: 0}
-  elementIcon: {fileID: 0}
+  itemType: 0
   rarity: 2
+  icon: {fileID: 21300000, guid: dbe38edd93520254cb85ae8d3a062079, type: 3}
+  splashArt: {fileID: 21300000, guid: 6a1359a2350c9bf439b6578885aada1e, type: 3}
+  elementIcon: {fileID: 21300000, guid: 33492abca43762643b7be586ab7bbe5b, type: 3}
