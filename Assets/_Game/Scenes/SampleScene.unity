@@ -414,10 +414,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1289107021}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1820, y: 600}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &578094959
 MonoBehaviour:
@@ -706,7 +706,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Game.Core::Game.View.GachaController
   currentBanner: {fileID: 11400000, guid: 019f967d4c5cebe428dfee77707bffe4, type: 2}
-  resultsView: {fileID: 0}
+  resultsView: {fileID: 1546474188}
   startingGems: 16000
   currentGemsDisplay: 0
 --- !u!4 &1546474187

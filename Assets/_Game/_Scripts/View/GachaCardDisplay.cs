@@ -35,7 +35,7 @@ namespace Game.View
                 artWeaponSlot.gameObject.SetActive(false);
 
                 // Preenche
-                artCharacterSlot.sprite = item.splashArt != null ? item.splashArt : item.icon;
+                artCharacterSlot.sprite = item.icon;
 
                 // Mostra Elemento
                 if (item.elementIcon != null)
