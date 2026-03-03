@@ -12,6 +12,12 @@ Este projeto faz parte de uma série de vídeos do canal **[Killdragon](https://
 
 O objetivo não é apenas copiar o visual, mas replicar a **lógica matemática** (Soft Pity, Hard Pity, 50/50) garantindo que tudo funcione através de Testes Unitários antes mesmo de abrir a Unity.
 
+## 📺 Acompanhe o Desenvolvimento
+
+Este projeto é documentado passo a passo no YouTube. Para manter este documento organizado, a lista completa de episódios e referências técnicas está em um arquivo separado.
+
+👉 **[Ver Lista de Vídeos e Referências (Docs)](Docs/videos_youtube.md)**
+
 ## ✨ Funcionalidades (Core)
 
 - 🎲 **Sistema de Probabilidade Real:** Implementação fiel das taxas de drop (0.6% base, Soft Pity a partir do 74º tiro).
