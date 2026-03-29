@@ -1,0 +1,34 @@
+VisualElement {
+}
+
+.text-gems {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    -unity-font-style: bold;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0);
+}
+
+.btn-pull {
+    color: rgb(168, 144, 114);
+    font-size: 32px;
+    background-image: url("project://database/Assets/_Game/Art/Sprites/UI/Banner/btn_pray.png?fileID=21300000&guid=95191c8d02259864bb58b85e7ac5ba13&type=3#btn_pray");
+    background-color: rgba(0, 0, 0, 0);
+    width: 343px;
+    height: 77px;
+    -unity-font-style: bold;
+    -unity-font-definition: url("project://database/Assets/_Game/_Scripts/View/UI/Fonts/Enriqueta-SemiBold%20SDF.asset?fileID=11400000&guid=342cf0021e0081e4ead6984d3c0ac4b3&type=2#Enriqueta-SemiBold SDF");
+}
+
+.text-banner-info-header {
+    font-size: 64px;
+    -unity-font-style: bold;
+    color: rgb(255, 255, 255);
+    -unity-text-outline-width: 4px;
+    -unity-text-outline-color: rgb(119, 125, 129);
+    -unity-font-definition: url("project://database/Assets/_Game/_Scripts/View/UI/Fonts/Lalezar-Regular%20SDF.asset?fileID=11400000&guid=683948a2ee6acc840aa0d6d0341401fb&type=2#Lalezar-Regular SDF");
+}
+
+.text-banner-info-header-value {
+    color: rgb(255, 252, 86);
+    -unity-text-outline-color: rgb(213, 115, 34);
+}

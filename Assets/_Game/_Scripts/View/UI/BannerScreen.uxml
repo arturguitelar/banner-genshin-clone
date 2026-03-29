@@ -1,0 +1,29 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/_Game/_Scripts/View/UI/BannerStyles.uss?fileID=7433441132597879392&amp;guid=99a237220e41cef4b9e5f84504568234&amp;type=3#BannerStyles"/>
+    <ui:VisualElement name="Container-Root" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/_Game/Art/Sprites/UI/Banner/background.png?fileID=2800000&amp;guid=09ac5f856e41952429ce0e5ac0495fc0&amp;type=3#background&quot;); justify-content: space-between;">
+        <ui:VisualElement name="TopBar" style="flex-grow: 1; align-items: flex-end;">
+            <ui:Button text="&#10;" name="BtnOpenStore" class="btn-open-store" style="background-image: url(&quot;project://database/Assets/_Game/Art/Sprites/UI/Banner/btn_open_buy_gems.png?fileID=21300000&amp;guid=af3117cada90c5d4e83c459dbec70f7c&amp;type=3#btn_open_buy_gems&quot;); background-color: rgba(255, 255, 255, 0); background-size: 100% 100%; -unity-background-scale-mode: stretch-to-fill; min-width: 248px; min-height: 46px; padding-right: 46px; padding-left: 46px; padding-top: 16px; height: 46px; padding-bottom: 12px;">
+                <ui:Label text="160000000000000" name="gems-text" class="text-gems"/>
+            </ui:Button>
+        </ui:VisualElement>
+        <ui:VisualElement name="CenterContainer" style="flex-grow: 1; align-items: center; justify-content: center; align-content: center;">
+            <ui:Image name="banner-image" style="background-image: url(&quot;project://database/Assets/_Game/Art/Sprites/UI/Banner/banner.png?fileID=21300000&amp;guid=2b38c0f9902de6f4a953315d5e7d8d27&amp;type=3#banner&quot;); min-width: 1297px; min-height: 670px; -unity-background-scale-mode: stretch-to-fill; width: 1299px;">
+                <ui:VisualElement name="GuaranteedContainer" style="flex-grow: 1; position: absolute; top: 238px; left: 35px; -unity-text-align: upper-center;">
+                    <ui:Label text="Garantido?" name="guaranteed-text" class="text-banner-info-header" style="position: relative; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;"/>
+                    <ui:Label text="SIM" name="guaranteed-value" class="text-banner-info-header text-banner-info-header-value" style="position: relative; margin-top: -40px; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; font-size: 80px;"/>
+                </ui:VisualElement>
+                <ui:VisualElement name="PityContainer" style="flex-grow: 1; position: absolute; top: 513px; left: 97px; flex-direction: row;">
+                    <ui:Label text="Pity:" name="pity-text" class="text-banner-info-header" style="position: relative;"/>
+                    <ui:Label text="30" name="pity-value" class="text-banner-info-header text-banner-info-header-value" style="position: relative;"/>
+                </ui:VisualElement>
+            </ui:Image>
+        </ui:VisualElement>
+        <ui:VisualElement name="BottomBar" style="flex-grow: 1; flex-direction: row; justify-content: space-between; align-self: auto; align-items: center; align-content: auto;">
+            <ui:Button text="Histórico" name="btn-history" class="btn-history" style="background-image: url(&quot;project://database/Assets/_Game/Art/Sprites/UI/Banner/btn_history.png?fileID=21300000&amp;guid=d2edbb7c703c2c04b9979a5345b86209&amp;type=3#btn_history&quot;); width: auto; height: auto; min-width: 172px; background-color: rgba(255, 255, 255, 0); margin-top: 6px; padding-top: 10px; padding-bottom: 18px; font-size: 24px; color: rgb(65, 72, 89); margin-left: 90px; -unity-font-style: bold; padding-left: 40px; padding-right: 40px; -unity-font-definition: url(&quot;project://database/Assets/_Game/_Scripts/View/UI/Fonts/Enriqueta-SemiBold%20SDF.asset?fileID=11400000&amp;guid=342cf0021e0081e4ead6984d3c0ac4b3&amp;type=2#Enriqueta-SemiBold SDF&quot;);"/>
+            <ui:VisualElement name="PullButtonsContainer" style="flex-grow: 1; flex-direction: row; justify-content: flex-end; align-content: flex-end;">
+                <ui:Button text="Orar 1 vez" name="btn-pull-1" class="btn-pull"/>
+                <ui:Button text="Orar 10 vezes" name="btn-pull-10" class="btn-pull" style="margin-right: 81px; margin-left: 53px;"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
