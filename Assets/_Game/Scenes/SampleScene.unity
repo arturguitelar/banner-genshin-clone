@@ -128,6 +128,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 244426661}
+  - component: {fileID: 244426662}
+  - component: {fileID: 244426663}
   m_Layer: 0
   m_Name: UI_BannerManager
   m_TagString: Untagged
@@ -150,6 +152,45 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &244426662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 244426660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.UIElements.UIDocument
+  m_PanelSettings: {fileID: 11400000, guid: cd7176f9717cc1b49a4ed86bf90912c3, type: 2}
+  m_ParentUI: {fileID: 0}
+  sourceAsset: {fileID: 9197481963319205126, guid: db2fbf750bb7d124c8f985347ebdc48e, type: 3}
+  m_SortingOrder: 0
+  m_Position: 0
+  m_WorldSpaceSizeMode: 1
+  m_WorldSpaceWidth: 1920
+  m_WorldSpaceHeight: 1080
+  m_PivotReferenceSize: 0
+  m_Pivot: 0
+  m_WorldSpaceCollider: {fileID: 0}
+--- !u!114 &244426663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 244426660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b28ba174817e0340877f6756454aa5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Game.Core::Game.View.GachaController
+  currentBanner: {fileID: 11400000, guid: 019f967d4c5cebe428dfee77707bffe4, type: 2}
+  resultsView: {fileID: 0}
+  bannerUIDocument: {fileID: 244426662}
+  startingGems: 16000
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -622,7 +663,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1289107018
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -738,8 +779,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Game.Core::Game.View.GachaController
   currentBanner: {fileID: 11400000, guid: 019f967d4c5cebe428dfee77707bffe4, type: 2}
   resultsView: {fileID: 1546474188}
+  bannerUIDocument: {fileID: 0}
   startingGems: 16000
-  currentGemsDisplay: 0
 --- !u!4 &1546474187
 Transform:
   m_ObjectHideFlags: 0
