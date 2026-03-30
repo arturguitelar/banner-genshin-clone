@@ -1,0 +1,23 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/_Game/_Scripts/View/UI/BannerStyles.uss?fileID=7433441132597879392&amp;guid=99a237220e41cef4b9e5f84504568234&amp;type=3#BannerStyles"/>
+    <ui:VisualElement name="Modal-Overlay" style="flex-grow: 1; position: absolute; background-color: rgba(0, 0, 0, 0.2); align-items: center; justify-content: center; align-content: auto; width: 100%; height: 100%;">
+        <ui:VisualElement name="Modal-Window" class="buy-gems-modal modal-window" style="flex-grow: 0; align-items: center; justify-content: center; background-image: url(&quot;project://database/Assets/_Game/Art/Sprites/UI/Banner/buy_modal_bg.png?fileID=21300000&amp;guid=224e60d3706ea5c4bbf9a26ee48e100f&amp;type=3#buy_modal_bg&quot;); align-self: center; align-content: center; padding-left: 80px; padding-right: 80px; padding-top: 40px; padding-bottom: 40px;">
+            <ui:Label text="Resgatar Gemas" style="-unity-font-style: bold; font-size: 36px; color: rgb(73, 83, 102); margin-bottom: 50px;"/>
+            <ui:VisualElement name="Container-Gems" style="flex-grow: 1; flex-direction: row; height: 58px; align-items: center; align-self: center; align-content: center; justify-content: center; background-size: 100% 100%; min-height: 58px; max-height: 58px; min-width: 425px; border-top-width: 3px; border-right-width: 3px; border-bottom-width: 3px; border-left-width: 3px; border-left-color: rgb(237, 234, 230); border-right-color: rgb(237, 234, 230); border-top-color: rgb(237, 234, 230); border-bottom-color: rgb(237, 234, 230); border-top-left-radius: 25px; border-top-right-radius: 25px; border-bottom-right-radius: 25px; border-bottom-left-radius: 25px; padding-top: 2px; padding-right: 2px; padding-bottom: 2px; padding-left: 2px; margin-bottom: 20px;">
+                <ui:VisualElement name="quantity-gems-capsule" style="flex-grow: 1; flex-direction: row; align-items: center; justify-content: space-between; align-content: center; align-self: center; height: 46px; background-color: rgb(248, 248, 247); border-top-left-radius: 25px; border-top-right-radius: 25px; border-bottom-right-radius: 25px; border-bottom-left-radius: 25px;">
+                    <ui:Button text="-" name="btn-sub-1-gem" class="btn-quantity-gems-rounded btn-quantity-color"/>
+                    <ui:Label text="160" name="value-gems" style="-unity-font-style: bold; font-size: 28px; color: rgb(73, 83, 102);"/>
+                    <ui:Button text="+" name="btn-add-1-gem" class="btn-quantity-gems-rounded btn-quantity-color"/>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="Container-Btn-10x" style="flex-grow: 1; flex-direction: row; margin-bottom: 50px;">
+                <ui:Button text="-1600" name="btn-sub-10-gems" class="btn-quantity-color btn-quantity-10x-capsulle" style="margin-right: 14px;"/>
+                <ui:Button text="+1600" name="btn-add-10-gems" class="btn-quantity-color btn-quantity-10x-capsulle"/>
+            </ui:VisualElement>
+            <ui:VisualElement name="Container-Btn-Actions" style="flex-grow: 1; flex-direction: row; justify-content: space-between; min-width: 722px;">
+                <ui:Button text="Cancelar" name="btn-cancel" class="btn-quantity-color btn-quantity-action"/>
+                <ui:Button text="Resgatar" name="btn-approve" class="btn-quantity-color btn-quantity-action"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

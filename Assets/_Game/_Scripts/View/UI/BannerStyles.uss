@@ -32,3 +32,46 @@ VisualElement {
     color: rgb(255, 252, 86);
     -unity-text-outline-color: rgb(213, 115, 34);
 }
+
+.buy-gems-modal {
+    -unity-font-definition: url("project://database/Assets/_Game/_Scripts/View/UI/Fonts/Inter-VariableFont_opsz,wght%20SDF.asset?fileID=11400000&guid=d9ec431526e95214795c40134866aefc&type=2#Inter-VariableFont_opsz,wght SDF");
+}
+
+.btn-quantity-gems-rounded {
+    font-size: 42px;
+    color: rgb(236, 229, 216);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    width: 38px;
+    height: 38px;
+    padding-top: 5px;
+}
+
+.btn-quantity-color {
+    color: rgb(236, 229, 216);
+    background-color: rgb(74, 83, 102);
+}
+
+.btn-quantity-10x-capsulle {
+    max-height: 42px;
+    font-size: 24px;
+    -unity-font-style: normal;
+    min-width: 123px;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+    border-bottom-right-radius: 22px;
+    border-bottom-left-radius: 22px;
+}
+
+.btn-quantity-action {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    max-height: 64px;
+    min-width: 306px;
+    font-size: 32px;
+    -unity-font-style: bold;
+}
