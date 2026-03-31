@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 244426662}
   - component: {fileID: 244426663}
   m_Layer: 0
-  m_Name: UI_BannerManager
+  m_Name: UI Banner Controller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -184,13 +184,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 244426660}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b28ba174817e0340877f6756454aa5b, type: 3}
+  m_Script: {fileID: 11500000, guid: bad5044dbd5f2c846b6562bc9bb5d9f6, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Game.Core::Game.View.GachaController
-  currentBanner: {fileID: 11400000, guid: 019f967d4c5cebe428dfee77707bffe4, type: 2}
-  resultsView: {fileID: 0}
-  bannerUIDocument: {fileID: 244426662}
-  startingGems: 16000
+  m_EditorClassIdentifier: Game.Core::Game.View.UI.UI_BannerManager
+  _uiDocument: {fileID: 244426662}
+  _gachaController: {fileID: 1546474188}
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -756,31 +754,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1546474187}
-  - component: {fileID: 1546474186}
   - component: {fileID: 1546474188}
   m_Layer: 0
-  m_Name: Gacha Manager
+  m_Name: Gacha Controller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1546474186
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1546474185}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b28ba174817e0340877f6756454aa5b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Game.Core::Game.View.GachaController
-  currentBanner: {fileID: 11400000, guid: 019f967d4c5cebe428dfee77707bffe4, type: 2}
-  resultsView: {fileID: 1546474188}
-  bannerUIDocument: {fileID: 0}
-  startingGems: 16000
 --- !u!4 &1546474187
 Transform:
   m_ObjectHideFlags: 0
@@ -805,11 +786,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1546474185}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc80ad3a863343540a3b87b33827ea0e, type: 3}
+  m_Script: {fileID: 11500000, guid: ba42e3f424afafd49839d99c69483a29, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Game.Core::Game.View.GachaResultsView
-  cardsContainer: {fileID: 578094958}
-  cardPrefab: {fileID: 4152594329566014463, guid: 091b4152ee5f5db48a0ef14cce25786f, type: 3}
+  m_EditorClassIdentifier: Game.Core::Game.Managers.GachaManager
+  currentBanner: {fileID: 11400000, guid: 019f967d4c5cebe428dfee77707bffe4, type: 2}
+  startingGems: 16000
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
