@@ -33,7 +33,12 @@ namespace Game.View
             prizes = new List<GachaItemSO>();
             int totalCost = currentBanner.costPerPull * amount;
 
-            if (!Wallet.TrySpend(totalCost)) return false;
+            // Mensagem de aviso quando não tem gemas!
+            if (!Wallet.TrySpend(totalCost))
+            {
+                Debug.LogWarning("Sem Grana! Vai farmar baú!");
+                return false;
+            }
 
             for (int i = 0; i < amount; i++)
             {
@@ -65,7 +70,7 @@ namespace Game.View
 
             if (rarity == GachaRarity.FourStar)
             {
-                // CORREÇÃO: Respeitando o 50/50 do 4 estrelas do seu GachaSystem!
+                // Respeitando o 50/50 do 4 estrelas do seu GachaSystem!
                 bool wonRateUp = ResolveRateUp4Star(UnityEngine.Random.value);
                 return wonRateUp ? currentBanner.GetFeatured4Star() : currentBanner.GetStandard4Star();
             }
