@@ -75,3 +75,41 @@ VisualElement {
     font-size: 32px;
     -unity-font-style: bold;
 }
+
+.btn-history-change-registers {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-left-color: rgb(237, 217, 187);
+    border-right-color: rgb(237, 217, 187);
+    border-top-color: rgb(237, 217, 187);
+    border-bottom-color: rgb(237, 217, 187);
+    background-color: rgb(237, 232, 224);
+    color: rgb(96, 89, 89);
+    -unity-font-style: bold;
+    font-size: 34px;
+    -unity-font-definition: url("project://database/Assets/_Game/_Scripts/View/UI/Fonts/Lalezar-Regular.ttf?fileID=12800000&guid=9461bdf662975094ab4611d53f429dfa&type=3#Lalezar-Regular");
+    width: 40px;
+    height: 40px;
+    padding-top: 6px;
+    padding-bottom: 0;
+}
+
+.table-history-header {
+    color: rgb(91, 84, 83);
+    font-size: 28px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+}
+
+.table-history-data {
+    color: rgb(142, 142, 142);
+    font-size: 24px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+}

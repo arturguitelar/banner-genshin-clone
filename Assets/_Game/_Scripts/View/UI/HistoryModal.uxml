@@ -1,0 +1,57 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/_Game/_Scripts/View/UI/BannerStyles.uss?fileID=7433441132597879392&amp;guid=99a237220e41cef4b9e5f84504568234&amp;type=3#BannerStyles"/>
+    <ui:VisualElement name="Modal-Overlay" style="flex-grow: 1; position: absolute; background-color: rgba(0, 0, 0, 0.39); align-items: center; justify-content: center; align-content: auto; width: 100%; height: 100%;">
+        <ui:VisualElement name="Modal-Window" class="buy-gems-modal modal-window" style="flex-grow: 0; align-items: flex-start; justify-content: center; background-image: url(&quot;project://database/Assets/_Game/Art/Sprites/UI/Banner/book_modal_bg.png?fileID=21300000&amp;guid=e1278745a56a5ac4e9118f57396b0925&amp;type=3#book_modal_bg&quot;); align-self: center; align-content: center; padding-left: 80px; padding-right: 80px; padding-top: 40px; padding-bottom: 40px; min-width: 1345px; min-height: 725px;">
+            <ui:VisualElement style="flex-grow: 0; align-items: flex-start; flex-direction: row; height: 96px;">
+                <ui:Image style="min-width: 37px; min-height: 37px; background-image: url(&quot;project://database/Assets/_Game/Art/Sprites/UI/Banner/book_modal_header_details.png?fileID=2800000&amp;guid=db94e69994d626843bf2bfc180203c74&amp;type=3#book_modal_header_details&quot;); width: 37px; height: 37px; margin-top: 12px; margin-right: 10px;"/>
+                <ui:Label text="Histórico de orações" style="-unity-font-style: bold; font-size: 32px; color: rgb(89, 82, 82); margin-bottom: 50px;"/>
+            </ui:VisualElement>
+            <ui:VisualElement name="VisualElement" style="flex-grow: 1; align-items: center; align-self: center; justify-content: space-between;">
+                <ui:VisualElement name="Table-Container" style="flex-grow: 1; align-items: stretch; width: 1143px; border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; border-left-color: rgb(215, 195, 153); border-right-color: rgb(215, 195, 153); border-top-color: rgb(215, 195, 153); border-bottom-color: rgb(215, 195, 153);">
+                    <ui:VisualElement name="Header-Row" style="flex-grow: 1; flex-direction: row; background-color: rgb(237, 225, 202); border-bottom-color: rgb(217, 197, 157); border-bottom-width: 1px; max-height: 74px;">
+                        <ui:Label text="Tipo" name="" class="table-history-header" style="flex-grow: 1;"/>
+                        <ui:Label text="Nome" class="table-history-header" style="flex-grow: 2;"/>
+                        <ui:Label text="Pity 5*" class="table-history-header" style="flex-grow: 1;"/>
+                        <ui:Label text="Pity 4*" class="table-history-header" style="flex-grow: 1;"/>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Data-Row-0" style="flex-grow: 1; flex-direction: row; max-height: 74px; border-bottom-width: 1px; border-bottom-color: rgb(224, 207, 175);">
+                        <ui:Label text="Label" name="col-type" class="table-history-data" style="flex-grow: 1;"/>
+                        <ui:Label text="Label" name="col-name" class="table-history-data" style="flex-grow: 2;"/>
+                        <ui:Label text="Label" name="col-pity5" class="table-history-data" style="flex-grow: 1;"/>
+                        <ui:Label text="Label" name="col-pity4" class="table-history-data" style="flex-grow: 1;"/>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Data-Row-1" style="flex-grow: 1; flex-direction: row; max-height: 74px; border-bottom-width: 1px; border-bottom-color: rgb(224, 207, 175);">
+                        <ui:Label text="Label" name="col-type" class="table-history-data" style="flex-grow: 1;"/>
+                        <ui:Label text="Label" name="col-name" class="table-history-data" style="flex-grow: 2;"/>
+                        <ui:Label text="Label" name="col-pity5" class="table-history-data" style="flex-grow: 1;"/>
+                        <ui:Label text="Label" name="col-pity4" class="table-history-data" style="flex-grow: 1;"/>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Data-Row-2" style="flex-grow: 1; flex-direction: row; max-height: 74px; border-bottom-width: 1px; border-bottom-color: rgb(224, 207, 175);">
+                        <ui:Label text="Label" name="col-type" class="table-history-data" style="flex-grow: 1;"/>
+                        <ui:Label text="Label" name="col-name" class="table-history-data" style="flex-grow: 2;"/>
+                        <ui:Label text="Label" name="col-pity5" class="table-history-data" style="flex-grow: 1;"/>
+                        <ui:Label text="Label" name="col-pity4" class="table-history-data" style="flex-grow: 1;"/>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Data-Row-3" style="flex-grow: 1; flex-direction: row; max-height: 74px; border-bottom-width: 1px; border-bottom-color: rgb(224, 207, 175);">
+                        <ui:Label text="Label" name="col-type" class="table-history-data" style="flex-grow: 1;"/>
+                        <ui:Label text="Label" name="col-name" class="table-history-data" style="flex-grow: 2;"/>
+                        <ui:Label text="Label" name="col-pity5" class="table-history-data" style="flex-grow: 1;"/>
+                        <ui:Label text="Label" name="col-pity4" class="table-history-data" style="flex-grow: 1;"/>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Data-Row-4" style="flex-grow: 1; flex-direction: row; max-height: 74px; border-bottom-width: 1px; border-bottom-color: rgb(224, 207, 175);">
+                        <ui:Label text="Label" name="col-type" class="table-history-data" style="flex-grow: 1;"/>
+                        <ui:Label text="Label" name="col-name" class="table-history-data" style="flex-grow: 2;"/>
+                        <ui:Label text="Label" name="col-pity5" class="table-history-data" style="flex-grow: 1;"/>
+                        <ui:Label text="Label" name="col-pity4" class="table-history-data" style="flex-grow: 1;"/>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="Pagination-Container" style="flex-grow: 0; flex-direction: row; height: 40px; align-items: center; justify-content: space-between; min-width: 247px; align-content: center; margin-top: 50px; margin-bottom: 12px;">
+                    <ui:Button text="&lt;" name="btn-prev" class="btn-history-change-registers"/>
+                    <ui:Label text="01" name="page-number" style="color: rgb(89, 82, 82); -unity-font-style: bold; font-size: 28px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;"/>
+                    <ui:Button text="&gt;" name="btn-next" class="btn-history-change-registers"/>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:Button text="" name="btn-close-modal" style="position: absolute; top: 238px; left: 1607px; width: 50px; height: 49px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; background-image: url(&quot;project://database/Assets/_Game/Art/Sprites/UI/Banner/btn_close_modal_history.png?fileID=21300000&amp;guid=7493a978aa3526b41b27a657c3de3672&amp;type=3#btn_close_modal_history&quot;); background-color: rgba(188, 188, 188, 0); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;"/>
+    </ui:VisualElement>
+</ui:UXML>

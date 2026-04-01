@@ -7,6 +7,15 @@ using Game.Data;
 
 namespace Game.View
 {
+    public struct PullRecord
+    {
+        public string ItemName;
+        public string ItemType;
+        public GachaRarity Rarity;
+        public int Pity5;
+        public int Pity4;
+    }
+
     public class GachaController : MonoBehaviour
     {
         [Header("Configurações")]
@@ -15,6 +24,8 @@ namespace Game.View
 
         public GachaSystem Logic { get; private set; }
         public WalletSystem Wallet { get; private set; }
+
+        public List<PullRecord> PullHistory { get; private set; } = new List<PullRecord>();
 
         public event Action OnDataUpdated;
 
@@ -57,31 +68,49 @@ namespace Game.View
             {
                 float roll = GetTrueRandom();
 
-                // --- LOG DE AUDITORIA CRÍTICA ---
-                // Aqui vamos capturar o estado ANTES do Pull alterar os contadores
-                int pityAntes = Logic.PityCounter5;
-                // Simulamos a mesma conta que o GachaSystem faz internamente para expor o erro
-                float chanceComparada = (pityAntes + 1 >= 74) ? 0.006f + (0.06f * (pityAntes + 1 - 74 + 1)) : 0.006f;
-                if (pityAntes + 1 >= 90) chanceComparada = 1.0f;
+                // 1. Estado ANTES do tiro (usado para auditoria e histórico)
+                int pity5Antes = Logic.PityCounter5;
+                int pity4Antes = Logic.PityCounter4;
 
+                // 2. Roda a roleta
                 GachaRarity rarity = Logic.Pull(roll);
                 GachaItemSO item = ResolveItem(rarity);
                 prizes.Add(item);
 
-                // Log detalhado para o review de amanhã
-                if (rarity == GachaRarity.FiveStar)
-                {
-                    Debug.LogWarning($"<color=#FFD700>[AUDITORIA 5★]</color> " +
-                        $"DADO: {roll:F6} | " +
-                        $"CHANCE CALCULADA: {chanceComparada:F6} | " +
-                        $"PITY NO MOMENTO: {pityAntes}");
-                }
-
-                LogResult(item, rarity, roll); // Passei o roll para o log comum também
+                // 3. Os nossos métodos extraídos
+                RecordHistory(item, rarity, pity5Antes + 1, pity4Antes + 1);
+                PerformAuditLog(roll, pity5Antes, rarity);
+                LogResult(item, rarity, roll);
             }
 
             OnDataUpdated?.Invoke();
             return true;
+        }
+
+        private void RecordHistory(GachaItemSO item, GachaRarity rarity, int currentPity5, int currentPity4)
+        {
+            PullHistory.Add(new PullRecord
+            {
+                ItemName = item != null && !string.IsNullOrEmpty(item.idName) ? item.idName : item.name,
+                ItemType = item.itemType == GachaType.Character ? "Personagem" : "Arma",
+                Rarity = rarity,
+                Pity5 = currentPity5,
+                Pity4 = currentPity4
+            });
+        }
+
+        private void PerformAuditLog(float roll, int pityAntes, GachaRarity rarity)
+        {
+            if (rarity == GachaRarity.FiveStar)
+            {
+                float chanceComparada = (pityAntes + 1 >= 74) ? 0.006f + (0.06f * (pityAntes + 1 - 74 + 1)) : 0.006f;
+                if (pityAntes + 1 >= 90) chanceComparada = 1.0f;
+
+                Debug.LogWarning($"<color=#FFD700>[AUDITORIA 5★]</color> " +
+                    $"DADO: {roll:F6} | " +
+                    $"CHANCE CALCULADA: {chanceComparada:F6} | " +
+                    $"PITY NO MOMENTO: {pityAntes}");
+            }
         }
 
         private void LogResult(GachaItemSO item, GachaRarity rarity, float rollValue)

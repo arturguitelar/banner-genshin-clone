@@ -12,6 +12,7 @@ namespace Game.View.UI
         // Nossos sub-controladores levinhos
         private BannerScreenController _bannerScreen;
         private BuyGemsModalController _buyGemsModal;
+        private HistoryModalController _historyModal;
 
         private void OnEnable()
         {
@@ -23,6 +24,7 @@ namespace Game.View.UI
             // Instancia os operários e passa as ferramentas pra eles
             _bannerScreen = new BannerScreenController(root, _gachaController);
             _buyGemsModal = new BuyGemsModalController(root, _gachaController);
+            _historyModal = new HistoryModalController(root, _gachaController);
         }
 
         private void OnDisable()
