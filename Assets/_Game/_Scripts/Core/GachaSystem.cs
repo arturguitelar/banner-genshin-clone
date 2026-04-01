@@ -57,7 +57,7 @@ namespace Game.Core
             if (diceRoll < currentChance5)
             {
                 PityCounter5 = 0;
-                PityCounter4 = 0; // No Genshin, tirar um 5★ geralmente reseta o contador de 10 também!
+                // CORREÇÃO: O Pity de 4 estrelas é independente. Ele NÃO reseta ao tirar um 5★.
                 LastResult = GachaRarity.FiveStar;
                 return GachaRarity.FiveStar;
             }
@@ -69,7 +69,7 @@ namespace Game.Core
             if (diceRoll < (currentChance5 + currentChance4))
             {
                 PityCounter4 = 0; // Reseta só o pity de 4★
-                // O Pity de 5★ CONTINUA subindo (tristeza, mas é a regra)
+                // O Pity de 5★ CONTINUA subindo, pois correm em paralelo.
                 LastResult = GachaRarity.FourStar;
                 return GachaRarity.FourStar;
             }
@@ -117,6 +117,29 @@ namespace Game.Core
             // Cenário 3: Perdeu o 50/50
             IsNext5StarGuaranteed = true; // Ativa a garantia para o PRÓXIMO
             return false; // Ganhou um padrão (Loss)
+        }
+
+        /// <summary>
+        /// Decide se o jogador ganhou o personagem/arma de 4 estrelas em destaque.
+        /// </summary>
+        /// <param name="diceRoll">Valor de 0.0 a 1.0 (Injeção de dependência para testes)</param>
+        /// <returns>True se ganhou o destaque, False se perdeu</returns>
+        public bool ResolveRateUp4Star(float diceRoll)
+        {
+            if (IsNext4StarGuaranteed)
+            {
+                IsNext4StarGuaranteed = false;
+                return true;
+            }
+
+            if (diceRoll < 0.5f)
+            {
+                IsNext4StarGuaranteed = false;
+                return true;
+            }
+
+            IsNext4StarGuaranteed = true;
+            return false;
         }
     }
 }
