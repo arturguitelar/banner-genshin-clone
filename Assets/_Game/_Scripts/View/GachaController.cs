@@ -91,7 +91,7 @@ namespace Game.View
         {
             PullHistory.Add(new PullRecord
             {
-                ItemName = item != null && !string.IsNullOrEmpty(item.idName) ? item.idName : item.name,
+                ItemName = item != null && !string.IsNullOrEmpty(item.name) ? item.name : item.idName,
                 ItemType = item.itemType == GachaType.Character ? "Personagem" : "Arma",
                 Rarity = rarity,
                 Pity5 = currentPity5,

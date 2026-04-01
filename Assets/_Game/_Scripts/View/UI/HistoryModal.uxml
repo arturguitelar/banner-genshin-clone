@@ -9,40 +9,40 @@
             <ui:VisualElement name="VisualElement" style="flex-grow: 1; align-items: center; align-self: center; justify-content: space-between;">
                 <ui:VisualElement name="Table-Container" style="flex-grow: 1; align-items: stretch; width: 1143px; border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; border-left-color: rgb(215, 195, 153); border-right-color: rgb(215, 195, 153); border-top-color: rgb(215, 195, 153); border-bottom-color: rgb(215, 195, 153);">
                     <ui:VisualElement name="Header-Row" style="flex-grow: 1; flex-direction: row; background-color: rgb(237, 225, 202); border-bottom-color: rgb(217, 197, 157); border-bottom-width: 1px; max-height: 74px;">
-                        <ui:Label text="Tipo" name="" class="table-history-header" style="flex-grow: 1;"/>
-                        <ui:Label text="Nome" class="table-history-header" style="flex-grow: 2;"/>
-                        <ui:Label text="Pity 5*" class="table-history-header" style="flex-grow: 1;"/>
-                        <ui:Label text="Pity 4*" class="table-history-header" style="flex-grow: 1;"/>
+                        <ui:Label text="Tipo" name="" class="table-history-header table-history-collumn-adjust" style="flex-grow: 1;"/>
+                        <ui:Label text="Nome" class="table-history-header table-history-collumn-adjust" style="flex-grow: 2;"/>
+                        <ui:Label text="Pity 5*" class="table-history-header table-history-collumn-adjust" style="flex-grow: 1;"/>
+                        <ui:Label text="Pity 4*" class="table-history-header table-history-collumn-adjust" style="flex-grow: 1;"/>
                     </ui:VisualElement>
                     <ui:VisualElement name="Data-Row-0" style="flex-grow: 1; flex-direction: row; max-height: 74px; border-bottom-width: 1px; border-bottom-color: rgb(224, 207, 175);">
-                        <ui:Label text="Label" name="col-type" class="table-history-data" style="flex-grow: 1;"/>
-                        <ui:Label text="Label" name="col-name" class="table-history-data" style="flex-grow: 2;"/>
-                        <ui:Label text="Label" name="col-pity5" class="table-history-data" style="flex-grow: 1;"/>
-                        <ui:Label text="Label" name="col-pity4" class="table-history-data" style="flex-grow: 1;"/>
+                        <ui:Label text="Label" name="col-type" class="table-history-data table-history-collumn-adjust" style="flex-grow: 1;"/>
+                        <ui:Label text="Label" name="col-name" class="table-history-data table-history-collumn-adjust" style="flex-grow: 2;"/>
+                        <ui:Label text="Label" name="col-pity5" class="table-history-data table-history-collumn-adjust" style="flex-grow: 1;"/>
+                        <ui:Label text="Label" name="col-pity4" class="table-history-data table-history-collumn-adjust" style="flex-grow: 1;"/>
                     </ui:VisualElement>
                     <ui:VisualElement name="Data-Row-1" style="flex-grow: 1; flex-direction: row; max-height: 74px; border-bottom-width: 1px; border-bottom-color: rgb(224, 207, 175);">
-                        <ui:Label text="Label" name="col-type" class="table-history-data" style="flex-grow: 1;"/>
-                        <ui:Label text="Label" name="col-name" class="table-history-data" style="flex-grow: 2;"/>
-                        <ui:Label text="Label" name="col-pity5" class="table-history-data" style="flex-grow: 1;"/>
-                        <ui:Label text="Label" name="col-pity4" class="table-history-data" style="flex-grow: 1;"/>
+                        <ui:Label text="Label" name="col-type" class="table-history-data table-history-collumn-adjust" style="flex-grow: 1;"/>
+                        <ui:Label text="Label" name="col-name" class="table-history-data table-history-collumn-adjust" style="flex-grow: 2;"/>
+                        <ui:Label text="Label" name="col-pity5" class="table-history-data table-history-collumn-adjust" style="flex-grow: 1;"/>
+                        <ui:Label text="Label" name="col-pity4" class="table-history-data table-history-collumn-adjust" style="flex-grow: 1;"/>
                     </ui:VisualElement>
                     <ui:VisualElement name="Data-Row-2" style="flex-grow: 1; flex-direction: row; max-height: 74px; border-bottom-width: 1px; border-bottom-color: rgb(224, 207, 175);">
-                        <ui:Label text="Label" name="col-type" class="table-history-data" style="flex-grow: 1;"/>
-                        <ui:Label text="Label" name="col-name" class="table-history-data" style="flex-grow: 2;"/>
-                        <ui:Label text="Label" name="col-pity5" class="table-history-data" style="flex-grow: 1;"/>
-                        <ui:Label text="Label" name="col-pity4" class="table-history-data" style="flex-grow: 1;"/>
+                        <ui:Label text="Label" name="col-type" class="table-history-data table-history-collumn-adjust" style="flex-grow: 1;"/>
+                        <ui:Label text="Label" name="col-name" class="table-history-data table-history-collumn-adjust" style="flex-grow: 2;"/>
+                        <ui:Label text="Label" name="col-pity5" class="table-history-data table-history-collumn-adjust" style="flex-grow: 1;"/>
+                        <ui:Label text="Label" name="col-pity4" class="table-history-data table-history-collumn-adjust" style="flex-grow: 1;"/>
                     </ui:VisualElement>
                     <ui:VisualElement name="Data-Row-3" style="flex-grow: 1; flex-direction: row; max-height: 74px; border-bottom-width: 1px; border-bottom-color: rgb(224, 207, 175);">
-                        <ui:Label text="Label" name="col-type" class="table-history-data" style="flex-grow: 1;"/>
-                        <ui:Label text="Label" name="col-name" class="table-history-data" style="flex-grow: 2;"/>
-                        <ui:Label text="Label" name="col-pity5" class="table-history-data" style="flex-grow: 1;"/>
-                        <ui:Label text="Label" name="col-pity4" class="table-history-data" style="flex-grow: 1;"/>
+                        <ui:Label text="Label" name="col-type" class="table-history-data table-history-collumn-adjust" style="flex-grow: 1;"/>
+                        <ui:Label text="Label" name="col-name" class="table-history-data table-history-collumn-adjust" style="flex-grow: 2;"/>
+                        <ui:Label text="Label" name="col-pity5" class="table-history-data table-history-collumn-adjust" style="flex-grow: 1;"/>
+                        <ui:Label text="Label" name="col-pity4" class="table-history-data table-history-collumn-adjust" style="flex-grow: 1;"/>
                     </ui:VisualElement>
                     <ui:VisualElement name="Data-Row-4" style="flex-grow: 1; flex-direction: row; max-height: 74px; border-bottom-width: 1px; border-bottom-color: rgb(224, 207, 175);">
-                        <ui:Label text="Label" name="col-type" class="table-history-data" style="flex-grow: 1;"/>
-                        <ui:Label text="Label" name="col-name" class="table-history-data" style="flex-grow: 2;"/>
-                        <ui:Label text="Label" name="col-pity5" class="table-history-data" style="flex-grow: 1;"/>
-                        <ui:Label text="Label" name="col-pity4" class="table-history-data" style="flex-grow: 1;"/>
+                        <ui:Label text="Label" name="col-type" class="table-history-data table-history-collumn-adjust" style="flex-grow: 1;"/>
+                        <ui:Label text="Label" name="col-name" class="table-history-data table-history-collumn-adjust" style="flex-grow: 2;"/>
+                        <ui:Label text="Label" name="col-pity5" class="table-history-data table-history-collumn-adjust" style="flex-grow: 1;"/>
+                        <ui:Label text="Label" name="col-pity4" class="table-history-data table-history-collumn-adjust" style="flex-grow: 1;"/>
                     </ui:VisualElement>
                 </ui:VisualElement>
                 <ui:VisualElement name="Pagination-Container" style="flex-grow: 0; flex-direction: row; height: 40px; align-items: center; justify-content: space-between; min-width: 247px; align-content: center; margin-top: 50px; margin-bottom: 12px;">
