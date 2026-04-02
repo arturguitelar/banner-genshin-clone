@@ -1,0 +1,13 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/_Game/_Scripts/View/UI/BannerStyles.uss?fileID=7433441132597879392&amp;guid=99a237220e41cef4b9e5f84504568234&amp;type=3#BannerStyles"/>
+    <ui:VisualElement name="Modal-Overlay" style="flex-grow: 1; position: absolute; background-color: rgba(0, 0, 0, 0.39); align-items: center; justify-content: center; align-content: auto; width: 100%; height: 100%;">
+        <ui:VisualElement name="Modal-Window" class="buy-gems-modal modal-window" style="flex-grow: 0; align-items: center; justify-content: center; background-image: url(&quot;project://database/Assets/_Game/Art/Sprites/UI/Banner/buy_modal_bg.png?fileID=21300000&amp;guid=224e60d3706ea5c4bbf9a26ee48e100f&amp;type=3#buy_modal_bg&quot;); align-self: center; align-content: center; padding-left: 80px; padding-right: 80px; padding-top: 40px; padding-bottom: 40px;">
+            <ui:Label text="Sem gemas!" style="-unity-font-style: bold; font-size: 46px; color: rgb(73, 83, 102); margin-bottom: 50px; height: 17px;"/>
+            <ui:Label text="Vai farmar baú!" style="-unity-font-style: bold; font-size: 36px; color: rgb(94, 101, 113); margin-bottom: 50px; height: 30px;"/>
+            <ui:Image style="flex-grow: 1; min-height: 200px; background-image: url(&quot;project://database/Assets/_Game/Art/Sprites/UI/Banner/end_gems.png?fileID=21300000&amp;guid=5c915c6d0a0bc724abbd76df2303e2cf&amp;type=3#end_gems&quot;); min-width: 200px; max-width: 300px; max-height: 300px; width: 300px; height: 300px; margin-bottom: 30px;"/>
+            <ui:VisualElement name="Container-Btn-Actions" style="flex-grow: 1; flex-direction: row; justify-content: center; min-width: 722px;">
+                <ui:Button text="OK" name="btn-approve" class="btn-quantity-color btn-quantity-action"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

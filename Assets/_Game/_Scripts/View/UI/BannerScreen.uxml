@@ -1,6 +1,7 @@
 <ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <ui:Template name="BuyGemsModal" src="project://database/Assets/_Game/_Scripts/View/UI/BuyGemsModal.uxml?fileID=9197481963319205126&amp;guid=8f1ac6b808fb55f4d99ad7ccddffb2fa&amp;type=3#BuyGemsModal"/>
     <ui:Template name="HistoryModal" src="project://database/Assets/_Game/_Scripts/View/UI/HistoryModal.uxml?fileID=9197481963319205126&amp;guid=3ea2a7dd4bc52904db7d9ade7ddb8195&amp;type=3#HistoryModal"/>
+    <ui:Template name="NoGemsModal" src="project://database/Assets/_Game/_Scripts/View/UI/NoGemsModal.uxml?fileID=9197481963319205126&amp;guid=c84ee5c5a9ae2e44c91467ba02506534&amp;type=3#NoGemsModal"/>
     <Style src="project://database/Assets/_Game/_Scripts/View/UI/BannerStyles.uss?fileID=7433441132597879392&amp;guid=99a237220e41cef4b9e5f84504568234&amp;type=3#BannerStyles"/>
     <ui:VisualElement name="Container-Root" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/_Game/Art/Sprites/UI/Banner/background.png?fileID=2800000&amp;guid=09ac5f856e41952429ce0e5ac0495fc0&amp;type=3#background&quot;); justify-content: space-between;">
         <ui:VisualElement name="TopBar" style="flex-grow: 1; align-items: flex-end;">
@@ -32,4 +33,5 @@
         <AttributeOverrides element-name="Modal-Overlay" enabled="true"/>
     </ui:Instance>
     <ui:Instance template="HistoryModal" name="hystory-template" style="position: absolute; width: 100%; height: 100%; display: none;"/>
+    <ui:Instance template="NoGemsModal" name="no-gems-template" style="width: 100%; height: 100%; position: absolute; display: none;"/>
 </ui:UXML>

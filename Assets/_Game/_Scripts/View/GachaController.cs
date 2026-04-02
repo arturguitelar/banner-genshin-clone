@@ -28,6 +28,7 @@ namespace Game.View
         public List<PullRecord> PullHistory { get; private set; } = new List<PullRecord>();
 
         public event Action OnDataUpdated;
+        public event Action OnInsufficientGems;
 
         private void Awake()
         {
@@ -61,6 +62,7 @@ namespace Game.View
             if (!Wallet.TrySpend(totalCost))
             {
                 Debug.LogWarning("Sem Grana! Vai farmar baú!");
+                OnInsufficientGems?.Invoke(); // O GachaController "grita" que faltou dinheiro!
                 return false;
             }
 

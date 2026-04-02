@@ -13,6 +13,7 @@ namespace Game.View.UI
         private BannerScreenController _bannerScreen;
         private BuyGemsModalController _buyGemsModal;
         private HistoryModalController _historyModal;
+        private NoGemsModalController _noGemsModal;
 
         private void OnEnable()
         {
@@ -25,12 +26,23 @@ namespace Game.View.UI
             _bannerScreen = new BannerScreenController(root, _gachaController);
             _buyGemsModal = new BuyGemsModalController(root, _gachaController);
             _historyModal = new HistoryModalController(root, _gachaController);
+
+            _noGemsModal = new NoGemsModalController(root);
+            _gachaController.OnInsufficientGems += _noGemsModal.ShowModal;
         }
 
         private void OnDisable()
         {
             // Limpa a sujeira pra não dar memory leak
             _bannerScreen?.Dispose();
+
+            // Desassina o evento e limpa a memória
+            if (_noGemsModal != null)
+            {
+                _noGemsModal.Dispose();
+                if (_gachaController != null)
+                    _gachaController.OnInsufficientGems -= _noGemsModal.ShowModal;
+            }
         }
     }
 }
